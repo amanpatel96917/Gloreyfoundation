@@ -117,7 +117,8 @@ input[type=checkbox] {
       background-color: #21323b;
     }
     .logo{
-      width: 50%;
+      width: 80%;
+      float: left;
     }
     .logo img{
       max-width: 100%;
