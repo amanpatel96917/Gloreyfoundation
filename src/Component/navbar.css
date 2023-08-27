@@ -31,8 +31,11 @@ ul{
   }
   
   /* LOGO */
-  .logo {
-    font-size: 32px;
+  .logo{
+    width: 30%;
+  }
+  .logo img{
+    max-width: 100%;
   }
   
   /* NAVBAR MENU */
@@ -96,7 +99,8 @@ input[type=checkbox] {
   
     input[type=checkbox]:checked ~ .menu {
       display: block;
-      margin-top: 25px;
+      margin-top: 20px;
+      z-index: 3;
     }
   
     .hamburger {
@@ -112,4 +116,11 @@ input[type=checkbox] {
     .dropdown li:hover {
       background-color: #21323b;
     }
+    .logo{
+      width: 50%;
+    }
+    .logo img{
+      max-width: 100%;
+    }
+    
   }
