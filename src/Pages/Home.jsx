@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom'
 const Home = () => {
   return (
     <>
-      <Carousele />
+    <Carousele/>
       <div className="container">
         <div
           className="feature-29192-wrap d-md-flex"
@@ -281,7 +281,6 @@ const Home = () => {
                 <Link to="/" className="d-block mb-3">
                   <img
                     src="images/img_1.jpg"
-                    alt="Image"
                     className="img-fluid rounded"
                   />
                 </Link>
@@ -317,7 +316,6 @@ const Home = () => {
                 <Link to='/' className="d-block mb-3">
                   <img
                     src="images/img_2.jpg"
-                    alt="Image"
                     className="img-fluid rounded"
                   />
                 </Link>
@@ -360,7 +358,6 @@ const Home = () => {
             <div className="col-md-6">
               <img
                 src="images/img_1.jpg"
-                alt="Image"
                 className="img-fluid shadow"
               />
             </div>
