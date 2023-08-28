@@ -1,5 +1,5 @@
 import React from 'react'
-import './style.css'
+import './/Css/style.css'
 import {  FaFacebookF, FaTwitter } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 

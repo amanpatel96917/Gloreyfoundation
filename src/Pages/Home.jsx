@@ -1,14 +1,18 @@
 // Css Start
-import Carousele from "../Component/Carousele"
-import "./Carsoul_css/owlcarsoul.css"
-import "./Carsoul_css/style.css"
+import Carousel from "../Component/Carousele"
+import "./Style/style.css"
 // Css End
 import { Link } from 'react-router-dom'
 
 const Home = () => {
+  const images = [
+    { url: "./images/img1.png", caption: "Image 1" },
+    { url: "./images/img2.png", caption: "Image 2" },
+    { url: "./images/img3.png", caption: "Image 3" },
+  ];
   return (
     <>
-    <Carousele/>
+      <Carousel images={images} />
       <div className="container">
         <div
           className="feature-29192-wrap d-md-flex"
@@ -24,7 +28,7 @@ const Home = () => {
               <h3 className="text-cursive text-white h1">Livelihood</h3>
             </div>
           </Link>
-          <a
+          <Link
             className="feature-29192 overlay-success"
             style={{ backgroundImage: 'url("images/img_2_gray.jpg")' }}
           >
@@ -32,7 +36,7 @@ const Home = () => {
               <span className="meta">Health</span>
               <h3 className="text-cursive text-white h1">Natural Remedies</h3>
             </div>
-          </a>
+          </Link>
           <div
             className="feature-29192 overlay-warning"
             style={{ backgroundImage: 'url("images/img_1_gray.jpg")' }}
@@ -63,7 +67,8 @@ const Home = () => {
             <div className="col-md-4">
               <div className="cause shadow-sm">
                 <Link to='/' className="cause-link d-block">
-                  <img src="./images/img_1.jpg" className="img-fluid" />
+                  <img src="./images/img_1.jpg"
+                    alt="img" className="img-fluid" />
                   <div className="custom-progress-wrap">
                     <span className="caption">80% complete</span>
                     <div className="custom-progress-inner">
@@ -91,6 +96,7 @@ const Home = () => {
                     <div className="d-flex align-items-center">
                       <img
                         src="images/person_1.jpg"
+                        alt="img"
                         className="rounded-circle mr-3"
                         width={50}
                       />
@@ -102,8 +108,8 @@ const Home = () => {
             </div>
             <div className="col-md-4">
               <div className="cause shadow-sm">
-                <a href="#" className="cause-link d-block">
-                  <img src="images/img_2.jpg" className="img-fluid" />
+                <Link to="/" className="cause-link d-block">
+                  <img src="images/img_2.jpg" alt="img" className="img-fluid" />
                   <div className="custom-progress-wrap">
                     <span className="caption">80% complete</span>
                     <div className="custom-progress-inner">
@@ -113,7 +119,7 @@ const Home = () => {
                       />
                     </div>
                   </div>
-                </a>
+                </Link>
                 <div className="px-3 pt-3 border-top-0 border border shadow-sm">
                   <span className="badge-primary py-1 small px-2 rounded mb-3 d-inline-block">
                     Health
@@ -131,6 +137,7 @@ const Home = () => {
                     <div className="d-flex align-items-center">
                       <img
                         src="images/person_1.jpg"
+                        alt="img"
                         className="rounded-circle mr-3"
                         width={50}
                       />
@@ -143,7 +150,7 @@ const Home = () => {
             <div className="col-md-4">
               <div className="cause shadow-sm">
                 <Link to='/' className="cause-link d-block">
-                  <img src="images/img_3.jpg" className="img-fluid" />
+                  <img src="images/img_3.jpg" alt="img" className="img-fluid" />
                   <div className="custom-progress-wrap">
                     <span className="caption">80% complete</span>
                     <div className="custom-progress-inner">
@@ -171,6 +178,7 @@ const Home = () => {
                     <div className="d-flex align-items-center">
                       <img
                         src="images/person_1.jpg"
+                        alt="img"
                         className="rounded-circle mr-3"
                         width={50}
                       />
@@ -281,6 +289,7 @@ const Home = () => {
                 <Link to="/" className="d-block mb-3">
                   <img
                     src="images/img_1.jpg"
+                    alt="img"
                     className="img-fluid rounded"
                   />
                 </Link>
@@ -303,9 +312,9 @@ const Home = () => {
                       </span>
                     </div>
                     <h3>
-                      <a href="single.html">
+                      <Link to="/">
                         Ratione Delectus Assumenda Rem Modi Quaerat Laborum
-                      </a>
+                      </Link>
                     </h3>
                   </div>
                 </div>
@@ -316,6 +325,7 @@ const Home = () => {
                 <Link to='/' className="d-block mb-3">
                   <img
                     src="images/img_2.jpg"
+                    alt="img"
                     className="img-fluid rounded"
                   />
                 </Link>
@@ -338,9 +348,9 @@ const Home = () => {
                       </span>
                     </div>
                     <h3>
-                      <a href="single.html">
+                      <Link to="single.html">
                         Ratione Delectus Assumenda Rem Modi Quaerat Laborum
-                      </a>
+                      </Link>
                     </h3>
                   </div>
                 </div>
@@ -358,6 +368,7 @@ const Home = () => {
             <div className="col-md-6">
               <img
                 src="images/img_1.jpg"
+                alt="img"
                 className="img-fluid shadow"
               />
             </div>
