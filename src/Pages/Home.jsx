@@ -6,9 +6,9 @@ import { Link } from 'react-router-dom'
 
 const Home = () => {
   const images = [
-    { url: "./images/img1.png", caption: "Image 1" },
-    { url: "./images/img2.png", caption: "Image 2" },
-    { url: "./images/img3.png", caption: "Image 3" },
+    { url: "./images/img1.png" },
+    { url: "./images/img2.png" },
+    { url: "./images/img3.png" },
   ];
   return (
     <>

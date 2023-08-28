@@ -19,18 +19,6 @@
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
-.carousel-caption {
-  position: absolute;
-  background-color: grey;
-  margin-inline: auto;
-  margin-bottom: 20px;
-  max-width: 500px;
-  z-index: 6;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  color: #fff;
-  text-align: center;
-}
 
 .carousel-button {
   background-color: blue;
