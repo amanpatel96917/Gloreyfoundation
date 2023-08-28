@@ -14,7 +14,7 @@ export default function Navbar() {
                     <label htmlFor="checkbox_toggle" className="hamburger">&#9776;</label>
                     <div className="menu">
                         <li>
-                            <Link to="/">Home</Link>
+                            <Link to="/">Homes</Link>
                         </li>
                         <li>
                             <Link to="/about">About</Link>
