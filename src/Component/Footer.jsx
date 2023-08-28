@@ -1,7 +1,6 @@
 import React from 'react'
-import {  FaFacebookF, FaInstagram, FaLinkedinIn, FaTwitter } from 'react-icons/fa'
-import { Link } from 'react-router-dom'
-import "./Css/style.css"
+import {  FaFacebookF, FaHeart, FaInstagram, FaLinkedinIn, FaTwitter } from 'react-icons/fa'
+import { NavLink,Link } from 'react-router-dom'
 export default function Footer() {
     return (
         <>
@@ -83,11 +82,12 @@ export default function Footer() {
                         <div className="col-md-12">
                             <div className="pt-5">
                                 <p>
-                                    Copyright © All rights reserved | This template is made with{" "}
-                                    <i className="icon-heart text-danger" aria-hidden="true" /> by{" "}
-                                    <Link to="https://colorlib.com" target="_blank">
-                                        Colorlib
-                                    </Link>
+                                    Copyright © All rights reserved {" "}
+                                    <FaHeart /> {" "}
+                                     by
+                                    <NavLink style={{textDecoration:"none"}} to="/" target="_blank">
+                                        {" "} Glorey Foundation
+                                    </NavLink>
                                 </p>
                             </div>
                         </div>

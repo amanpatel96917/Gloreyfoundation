@@ -68,9 +68,15 @@
 .carousel-dot.active {
   background-color: #333;
 }
-@media screen and (max-width: 865px) {
+@media screen and (min-width: 400px) and (max-width: 865px) {
   .carousel-button {
     padding: 7px 14px;
     font-size: 20px;
+  }
+}
+@media screen and  (max-width: 865px) {
+  .carousel-button {
+    padding: 7px 14px;
+    font-size: 10px;
   }
 }
