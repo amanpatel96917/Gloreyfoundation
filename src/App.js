@@ -4,9 +4,9 @@ import Home from "./Pages/Home";
 import Navbar from "./Component/Navbar";
 import About from "./Pages/About";
 import Footer from "./Component/Footer";
-import Services from "./Pages/Services";
-import Pricing from "./Pages/Pricing";
 import Contact from "./Pages/Contact";
+import OurCauses from "./Pages/OurCauses";
+import Blog from "./Pages/Blog";
 
 function App() {
   return (
@@ -17,8 +17,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/services" element={<Services />} />
-          <Route path="/pricing" element={<Pricing />} />
+          <Route path="/causes" element={<OurCauses/>} />
+          <Route path="/blog" element={<Blog />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer/>

@@ -47,8 +47,11 @@ body {
 }
 
 @media screen and (max-width: 865px) {
-    .header {
-        display: none;
+    .linkes{
+        width: 100%;
+    }
+    .icons{
+        width: 100%;
     }
 }
 

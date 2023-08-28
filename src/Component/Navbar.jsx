@@ -20,10 +20,10 @@ export default function Navbar() {
                             <Link to="/about">About</Link>
                         </li>
                         <li>
-                            <Link to="/services">Services</Link>
+                            <Link to="/causes">Our Causes</Link>
                         </li>
                         <li>
-                            <Link to="/pricing">Pricing</Link>
+                            <Link to="/blog">Blog</Link>
                         </li>
                         <li>
                             <Link to="/contact">Contact</Link>
