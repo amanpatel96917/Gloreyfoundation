@@ -12,7 +12,6 @@ function App() {
         <Header />
         <Navbar />
         <Routes>
-          hello
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
         </Routes>
