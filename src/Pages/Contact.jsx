@@ -79,19 +79,19 @@ const Contact = () => {
                     <span className="d-block text-muted small text-uppercase font-weight-bold">
                       Address:
                     </span>
-                    <span>34 Street Name, City Name Here, United States</span>
+                    <span>34 Press complex, Indore, Madhay pradesh, India</span>
                   </li>
                   <li className="d-block mb-3">
                     <span className="d-block text-muted small text-uppercase font-weight-bold">
                       Phone:
                     </span>
-                    <span>+1 242 4942 290</span>
+                    <span>+91 9644697642</span>
                   </li>
                   <li className="d-block mb-3">
                     <span className="d-block text-muted small text-uppercase font-weight-bold">
                       Email:
                     </span>
-                    <span>info@yourdomain.com</span>
+                    <span>amanpatel96917@gmail.com</span>
                   </li>
                 </ul>
               </div>

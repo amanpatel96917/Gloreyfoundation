@@ -14,8 +14,8 @@ const Header = () => {
                         <Link to='/' >Become A Volunteer</Link>
                     </div>
                     <div className="icons">
-                        <Link to='/'><FaTwitter/></Link>
-                        <Link to='/'><FaFacebookF/></Link>
+                        <Link to='https://twitter.com/amanpatel96917' target='_blank'><FaTwitter/></Link>
+                        <Link to='https://www.facebook.com/people/Aman-Patel/pfbid023q2j2478K76UyGKbnUhcYs5qBDd5mn92fjtbDgvVmAi3EnjceFYWzdd4fUBDNYQ1l/' target='_blank'><FaFacebookF/></Link>
                     </div>
                 </div>
             </div>

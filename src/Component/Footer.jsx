@@ -1,6 +1,6 @@
 import React from 'react'
-import {  FaFacebookF, FaHeart, FaInstagram, FaLinkedinIn, FaTwitter } from 'react-icons/fa'
-import { NavLink,Link } from 'react-router-dom'
+import { FaFacebookF, FaHeart, FaInstagram, FaLinkedinIn, FaTwitter } from 'react-icons/fa'
+import { NavLink, Link } from 'react-router-dom'
 export default function Footer() {
     return (
         <>
@@ -64,17 +64,17 @@ export default function Footer() {
                                 </form>
                             </div>
                             <h2 className="footer-heading mb-4">Follow Us</h2>
-                            <Link to="/about-section" className="smoothscroll pl-0 pr-3">
+                            <Link to="https://www.facebook.com/people/Aman-Patel/pfbid023q2j2478K76UyGKbnUhcYs5qBDd5mn92fjtbDgvVmAi3EnjceFYWzdd4fUBDNYQ1l/" target='_blank' className="smoothscroll pl-0 pr-3">
                                 <FaFacebookF />
                             </Link>
-                            <Link to="/" className="pl-3 pr-3">
-                               <FaTwitter/>
+                            <Link to="https://twitter.com/amanpatel96917" target='_blank' className="pl-3 pr-3">
+                                <FaTwitter />
                             </Link>
-                            <Link to="/" className="pl-3 pr-3">
-                               <FaInstagram/>
+                            <Link to="https://www.instagram.com/amanpatel96917/" target='_blank' className="pl-3 pr-3">
+                                <FaInstagram />
                             </Link>
-                            <Link to="/" className="pl-3 pr-3">
-                               <FaLinkedinIn />
+                            <Link to="https://www.linkedin.com/in/aman-patel-599779250/" target='_blank' className="pl-3 pr-3">
+                                <FaLinkedinIn />
                             </Link>
                         </div>
                     </div>
@@ -84,8 +84,8 @@ export default function Footer() {
                                 <p>
                                     Copyright © All rights reserved {" "}
                                     <FaHeart /> {" "}
-                                     by
-                                    <NavLink style={{textDecoration:"none"}} to="/" target="_blank">
+                                    by
+                                    <NavLink style={{ textDecoration: "none" }} to="/" target="_blank">
                                         {" "} Glorey Foundation
                                     </NavLink>
                                 </p>
